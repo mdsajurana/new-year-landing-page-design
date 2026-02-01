@@ -1,3 +1,70 @@
+
+.merriweather-{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .banner{
-    background-image: ;
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    width: 1330px;
+    height: 600px;
+    margin-left: 270px;
+    margin-right: 140px;
+    margin-top: 40px;
+    border-radius: 16px;
+    background-size: cover;
+    
+}
+
+.banner-position{
+    padding: 165px 345px 175px 390px;
+}
+
+.banner-sub-title{
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+
+.banner-title{
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.section-margin{
+    padding: 120px 340px 120px 500px;
+}
+
+.section-title{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-left: 205px;
+}
+
+.section-description{
+    font-size: 24px;
+    font-weight: 16px;
+    color: #FF0000;
+    margin-left: 205px;
+    margin-top: 45px;
+}
+
+.section-sub-title{
+    font-size: 48px;
+    font-weight: bold;
+    columns: #070211;
+    margin-left: 205px;
+    margin-top: 14px;
 }
