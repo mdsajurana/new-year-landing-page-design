@@ -97,9 +97,7 @@
 
 .secondary-description {
     font-size: 17px;
-    color: #FFFFFF;
-    background: linear-gradient(to bottom, #ffffff 80%, rgba(255, 255, 255, 0) 100%);
-    -webkit-text-fill-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
     margin-top: 24px;
     margin-bottom: 40px;
 }
@@ -133,20 +131,20 @@
     font-weight: bold;
 }
 
-.location-text{
+.location-text {
     padding: 90px 400px 121px 420px;
 }
 
-.section-place{
+.section-place {
     margin-left: 70px;
 }
 
-.section-date{
+.section-date {
     margin-left: 17px;
-    
+
 }
 
-.join-btn{
+.join-btn {
     background-color: #FF0000;
     font-size: 20px;
     font-weight: bold;
@@ -156,4 +154,58 @@
     border-radius: 10px;
     margin-left: 115px;
     margin-top: 30px;
+}
+
+.offfer-banner {
+    display: flex;
+    width: 1430px;
+    height: 445px;
+    margin-left: 270px;
+    margin-right: 140px;
+    margin-top: 100px;
+    gap: 70px;
+    width: 60%;
+}
+
+
+.offer-banner-column{
+    padding-top: 100px;
+    /* padding-right: 50px; */
+}
+.offer-sub-title{
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.offer-title{
+    font-size: 48px;
+    color: #070211;
+    margin-top: 10px;
+}
+
+.offfer-description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 15px;
+}
+
+.offer-image{
+    margin-top: 80px;
+}
+
+.offer-column-iii{
+    margin-left: 40px;
+}
+
+.offer-another-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 110px;
+}
+
+.offer-another-description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 10px;
 }
