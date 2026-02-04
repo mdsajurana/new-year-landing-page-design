@@ -126,6 +126,21 @@
     background: linear-gradient(#f9eeee, #ffffff);
 }
 
+.red::before {
+    content: 'Date:';
+    color: #FF0000;
+}
+
+.place::before {
+    content: 'Place:';
+    color: #FF0000;
+}
+
+.time::before {
+    content: 'Time:';
+    color: #FF0000;
+}
+
 .location-description {
     font-size: 27px;
     font-weight: bold;
@@ -168,44 +183,111 @@
 }
 
 
-.offer-banner-column{
+.offer-banner-column {
     padding-top: 100px;
     /* padding-right: 50px; */
 }
-.offer-sub-title{
+
+.offer-sub-title {
     font-size: 24px;
     color: #FF0000;
 }
 
-.offer-title{
+.offer-title {
     font-size: 48px;
     color: #070211;
     margin-top: 10px;
 }
 
-.offfer-description{
+.offfer-description {
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
     margin-top: 15px;
 }
 
-.offer-image{
+.offer-image {
     margin-top: 80px;
+    border: 14px solid orangered;
+    border-radius: 80%;
 }
 
-.offer-column-iii{
+.offer-column-iii {
     margin-left: 40px;
 }
 
-.offer-another-title{
+.offer-another-title {
     font-size: 42px;
     font-weight: bold;
     color: #FF0000;
     margin-top: 110px;
 }
 
-.offer-another-description{
+.offer-another-description {
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
     margin-top: 10px;
+}
+
+.sale-container {
+    width: 1330px;
+    height: 600px;
+    margin-left: 270px;
+    margin-right: 140px;
+    margin-top: 160px;
+}
+
+.container-sub-title {
+    font-size: 24px;
+    color: #070211;
+    margin-left: 250px;
+}
+
+.container-title {
+    font-size: 74px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.holy-red::before{
+    content: 'Holidays';
+    color: #FF0000;
+}
+
+.container-description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 15px;
+}
+
+.container-margin{
+    padding-left: 245px;
+    padding-right: 270px;
+}
+
+.image-content{
+    position: relative;
+}
+
+.lady{
+    position: relative;
+    left: 890px;
+    top: 40px;
+}
+
+.discount{
+    position: relative;
+    top: -320px;
+    left: 740px;
+}
+
+.box{
+    position: relative;
+    top: -680px;
+    z-index: 1;
+}
+
+.rectangle{
+    position: relative;
+    top: -910px;
 }
